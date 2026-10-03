@@ -1,4 +1,4 @@
-import type { UserRepository, UserGet } from "../domen/user/repository.js";
+import type { UserRepository, UserGet } from "../domain/user/repository.js";
 import  { jsonUserEditor } from "./utils/editJson.js";
 
 

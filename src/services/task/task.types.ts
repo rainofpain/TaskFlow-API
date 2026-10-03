@@ -1,5 +1,5 @@
-import type { Task } from "../../domen/task/entity.js";
-import type { NewTask, ChangeTask } from "../../domen/task/repository.js";
+import type { Task } from "../../domain/task/entity.js";
+import type { NewTask, ChangeTask } from "../../domain/task/repository.js";
 
 export interface TaskServices{
     addNewTask(data: NewTask):Promise<Task | undefined>

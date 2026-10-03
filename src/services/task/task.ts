@@ -1,6 +1,6 @@
-import type { TaskRepository } from "../../domen/task/repository.js"
+import type { TaskRepository } from "../../domain/task/repository.js"
 import type { TaskServices } from "./task.types.js"
-import type { UserRepository } from "../../domen/user/repository.js"
+import type { UserRepository } from "../../domain/user/repository.js"
 
 export function createTaskService(taskRepository: TaskRepository, userRepository: UserRepository): TaskServices{
     return{

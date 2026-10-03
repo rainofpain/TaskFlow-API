@@ -1,5 +1,5 @@
-import type { User } from "../../domen/user/entity.js";
-import type { UserGet, NewUser } from "../../domen/user/repository.js";
+import type { User } from "../../domain/user/entity.js";
+import type { UserGet, NewUser } from "../../domain/user/repository.js";
 
 export type LoginUserData = Omit<User, "createdAt" | "id"| "name">;
 

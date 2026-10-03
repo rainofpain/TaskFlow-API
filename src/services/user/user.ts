@@ -1,4 +1,4 @@
-import type { UserRepository } from '../../domen/user/repository.js';
+import type { UserRepository } from '../../domain/user/repository.js';
 import type {UserServices} from "./user.types.js"
 
 

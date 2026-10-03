@@ -1,4 +1,4 @@
-import type { TaskRepository } from "../domen/task/repository.js";
+import type { TaskRepository } from "../domain/task/repository.js";
 import  { jsonTaskEditor } from "./utils/editJson.js";
 
 

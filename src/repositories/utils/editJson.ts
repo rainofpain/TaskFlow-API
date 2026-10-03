@@ -1,5 +1,5 @@
-import type { Task } from "../../domen/task/entity.js";
-import type { User } from "../../domen/user/entity.js";
+import type { Task } from "../../domain/task/entity.js";
+import type { User } from "../../domain/user/entity.js";
 import fs from "fs/promises";
 import path, { dirname } from "path";
 import { fileURLToPath } from 'node:url';
